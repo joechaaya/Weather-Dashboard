@@ -36,19 +36,6 @@ input{
   width: 100;
   padding: 20px 30px;
 }
-.future-weather{
- font-size: 30px;
- text-align: left;
- color:orange
-}
-.column2{
-  float: left;
-  width: 15%;
-  padding: 0 10px;
-  display: inline;
-  background-color: yellow;
-  margin: auto;
-}
 
 .span{
   display: inline;
