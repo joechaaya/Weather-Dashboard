@@ -1,0 +1,56 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: whitesmoke;
+  margin: 40px;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  font-size: 20px;
+}
+header {
+  font-size: large;
+  color: black;
+  background-color: blue;
+  text-align: center;
+}
+.btn{
+  font-size: 1.5rem;
+  color: black;
+  display: block;
+  border: none;
+  padding: 20px 30px;
+  width: auto;
+  background-color: blue;
+  text-align: center;
+}
+.btn:hover{
+  color:red;
+  background-color: blue;
+  box-shadow:black 5px;
+
+}
+input{
+  width: 100;
+  padding: 20px 30px;
+}
+.future-weather{
+ font-size: 30px;
+ text-align: left;
+ color:orange
+}
+.column2{
+  float: left;
+  width: 15%;
+  padding: 0 10px;
+  display: inline;
+  background-color: yellow;
+  margin: auto;
+}
+
+.span{
+  display: inline;
+
+}

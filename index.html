@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/Assets/CSS/style.css">
+    <title>Weather Dashboard</title>
+</head>
+<body>
+    <header class="hero">
+        <h1 class="app-title">Weather Dashboard</h1>
+    </header>
+
+    <div class="row">
+        <div class="col-md-4">
+            <h2>Search for a City:</h2> 
+            <form>
+                <input class="form-control" id="cityname" type="search" placeholder="Enter a city name">
+                <button type="button" class="btn-primary">Search</button>
+            </form>
+            <div class="col-md-4 line"></div>
+        </div>
+        <div class="col-md-8">
+            <div id="display">
+                <div class="col-12">
+                    <h2 class="name"></h2>
+                    <img class="icon" src="" alt="">
+                </div>
+                <p class="temp"></p>
+                <p class="wind"></p>
+                <p class="humidity"></p>
+                <p class="uv"><span class="uvIndex"></span></p>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <h3>5-Day Forecast</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col forecast"></div>
+                <div class="col forecast"></div>
+                <div class="col forecast"></div>
+                <div class="col forecast"></div>
+                <div class="col forecast"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/Assets/JS/index.js"></script>
+</body>
+</html>
